@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2023-04-09 03:40:06,2023-04-09 03:40:23,16.957s,ERROR
+,,,,,,,
+Test Cases/select item and add to cart,,,,2023-04-09 03:40:06,2023-04-09 03:40:23,16.510s,ERROR
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,,2023-04-09 03:40:07,2023-04-09 03:40:07,0.008s,PASSED
+"startExistingApplication(""com.semaai.toko.staging"")",,,,2023-04-09 03:40:07,2023-04-09 03:40:21,14.313s,PASSED
+"takeScreenshot(""Start"")",,,,2023-04-09 03:40:21,2023-04-09 03:40:22,1.277s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/android.widget.ImageView""), 2))",,,,2023-04-09 03:40:22,2023-04-09 03:40:23,0.378s,ERROR

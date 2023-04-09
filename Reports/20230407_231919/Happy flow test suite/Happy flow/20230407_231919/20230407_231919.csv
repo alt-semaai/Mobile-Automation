@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Happy flow,,,,2023-04-07 23:19:30,2023-04-07 23:20:59,1m - 28.685s,PASSED
+,,,,,,,
+Test Cases/Checkout flow,,,,2023-04-07 23:20:19,2023-04-07 23:20:59,39.396s,PASSED
+"startExistingApplication(""com.semaai.toko.staging"")",,,,2023-04-07 23:20:19,2023-04-07 23:20:28,9.187s,PASSED
+"tap(findTestObject(""android.view.ViewGroup (1)""), 0)",,,,2023-04-07 23:20:28,2023-04-07 23:20:37,8.823s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.RadioButton""), 0)",,,,2023-04-07 23:20:37,2023-04-07 23:20:39,1.358s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - Konfirmasi (1)""), 0)",,,,2023-04-07 23:20:39,2023-04-07 23:20:40,1.101s,PASSED
+"scrollToText(""Total Pembayaran"")",,,,2023-04-07 23:20:40,2023-04-07 23:20:44,4.145s,PASSED
+"tap(findTestObject(""Object Repository/android.view.ViewGroup (2)""), 0)",,,,2023-04-07 23:20:44,2023-04-07 23:20:44,0.387s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (6)""), 0)",,,,2023-04-07 23:20:44,2023-04-07 23:20:47,3.091s,PASSED
+"tap(findTestObject(""Object Repository/android.view.ViewGroup (3)""), 0)",,,,2023-04-07 23:20:47,2023-04-07 23:20:48,0.852s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Buat Pesanan""), 0)",,,,2023-04-07 23:20:48,2023-04-07 23:20:49,0.770s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - Detail Pesanan""), 0)",,,,2023-04-07 23:20:49,2023-04-07 23:20:52,2.809s,PASSED
+pressBack(),,,,2023-04-07 23:20:52,2023-04-07 23:20:54,2.242s,PASSED
+pressBack(),,,,2023-04-07 23:20:54,2023-04-07 23:20:55,1.156s,PASSED
+pressBack(),,,,2023-04-07 23:20:55,2023-04-07 23:20:56,1.289s,PASSED
+pressBack(),,,,2023-04-07 23:20:56,2023-04-07 23:20:58,1.665s,PASSED
+closeApplication(),,,,2023-04-07 23:20:58,2023-04-07 23:20:59,0.467s,PASSED

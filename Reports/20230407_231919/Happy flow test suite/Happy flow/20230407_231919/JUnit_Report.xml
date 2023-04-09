@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Happy flow" time="88.685" tests="1" failures="0" errors="0">
+   <testsuite name="Happy flow" tests="1" failures="0" errors="0" time="88.685" skipped="0" timestamp="2023-04-07 23:19:30" hostname="altamash - localhost" id="Test Suites/Happy flow test suite/Happy flow">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230407_231919/Happy flow test suite/Happy flow/20230407_231919"/>
+         <property name="logFiles" value="/Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230407_231919/Happy flow test suite/Happy flow/20230407_231919/execution0.log, /Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230407_231919/Happy flow test suite/Happy flow/20230407_231919/appium.log"/>
+         <property name="attachments" value="/Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230407_231919/Happy flow test suite/Happy flow/20230407_231919/1680889818384.png"/>
+         <property name="hostName" value="altamash - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Checkout flow" time="39.396" classname="Test Cases/Checkout flow" status="PASSED">
+         <system-out><![CDATA[2023-04-07 23:20:19 - [TEST_CASE][PASSED] - Test Cases/Checkout flow: Test Cases/Checkout flow
+
+2023-04-07 23:20:19 - [TEST_STEP][PASSED] - startExistingApplication("com.semaai.toko.staging"): Starting app with application ID: 'com.semaai.toko.staging'
+
+2023-04-07 23:20:28 - [MESSAGE][PASSED] - Starting app with application ID: 'com.semaai.toko.staging'
+
+2023-04-07 23:20:28 - [TEST_STEP][PASSED] - tap(findTestObject("android.view.ViewGroup (1)"), 0): Tapped on element 'Object Repository/android.view.ViewGroup (1)'
+
+2023-04-07 23:20:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:20:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.ViewGroup (1)'
+
+2023-04-07 23:20:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.RadioButton"), 0): Tapped on element 'Object Repository/android.widget.RadioButton'
+
+2023-04-07 23:20:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:20:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RadioButton'
+
+2023-04-07 23:20:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - Konfirmasi (1)"), 0): Tapped on element 'Object Repository/android.widget.Button - Konfirmasi (1)'
+
+2023-04-07 23:20:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:20:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Konfirmasi (1)'
+
+2023-04-07 23:20:40 - [TEST_STEP][PASSED] - scrollToText("Total Pembayaran"): Scrolling to text 'Total Pembayaran' successfully
+
+2023-04-07 23:20:44 - [MESSAGE][PASSED] - Scrolling to text 'Total Pembayaran' successfully
+
+2023-04-07 23:20:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.view.ViewGroup (2)"), 0): Tapped on element 'Object Repository/android.view.ViewGroup (2)'
+
+2023-04-07 23:20:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:20:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.ViewGroup (2)'
+
+2023-04-07 23:20:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageView (6)"), 0): Tapped on element 'Object Repository/android.widget.ImageView (6)'
+
+2023-04-07 23:20:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:20:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView (6)'
+
+2023-04-07 23:20:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.view.ViewGroup (3)"), 0): Tapped on element 'Object Repository/android.view.ViewGroup (3)'
+
+2023-04-07 23:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:20:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.ViewGroup (3)'
+
+2023-04-07 23:20:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Buat Pesanan"), 0): Tapped on element 'Object Repository/android.widget.TextView - Buat Pesanan'
+
+2023-04-07 23:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:20:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Buat Pesanan'
+
+2023-04-07 23:20:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - Detail Pesanan"), 0): Tapped on element 'Object Repository/android.widget.Button - Detail Pesanan'
+
+2023-04-07 23:20:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:20:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Detail Pesanan'
+
+2023-04-07 23:20:52 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-07 23:20:54 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-07 23:20:54 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-07 23:20:55 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-07 23:20:55 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-07 23:20:56 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-07 23:20:56 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-07 23:20:58 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-07 23:20:58 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-07 23:20:59 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-07 23:19:30 - [TEST_SUITE][FAILED] - Happy flow: Test Cases/Checkout flow FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.view.ViewGroup (1) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Checkout flow.run(Checkout flow:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680889759391.run(TempTestSuite1680889759391.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-04-07 23:19:30 - [TEST_SUITE][FAILED] - Happy flow: Test Cases/Checkout flow FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.view.ViewGroup (1) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Checkout flow.run(Checkout flow:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680889759391.run(TempTestSuite1680889759391.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

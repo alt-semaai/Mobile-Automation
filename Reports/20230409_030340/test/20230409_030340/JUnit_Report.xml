@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="25.605" tests="1" failures="0" errors="0">
+   <testsuite name="test" tests="1" failures="0" errors="0" time="25.605" skipped="0" timestamp="2023-04-09 03:03:52" hostname="altamash - localhost" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230409_030340/test/20230409_030340"/>
+         <property name="logFiles" value="/Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230409_030340/test/20230409_030340/execution0.log, /Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230409_030340/test/20230409_030340/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="altamash - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/select item and add to cart" time="25.139" classname="Test Cases/select item and add to cart" status="PASSED">
+         <system-out><![CDATA[2023-04-09 03:03:52 - [TEST_CASE][PASSED] - Test Cases/select item and add to cart: Test Cases/select item and add to cart
+
+2023-04-09 03:03:53 - [TEST_STEP][PASSED] - startExistingApplication("com.semaai.toko.staging"): Starting app with application ID: 'com.semaai.toko.staging'
+
+2023-04-09 03:03:54 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-04-09 03:03:55 - [MESSAGE][INFO] - Appium server started on port 62,883
+
+2023-04-09 03:04:05 - [MESSAGE][PASSED] - Starting app with application ID: 'com.semaai.toko.staging'
+
+2023-04-09 03:04:05 - [TEST_STEP][PASSED] - try: null
+
+2023-04-09 03:04:05 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/android.widget.ImageView"), 2, CONTINUE_ON_FAILURE)): null
+
+2023-04-09 03:04:06 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2023-04-09 03:04:06 - [TEST_STEP][PASSED] - out.println("Failed to tap on the image view."): null
+
+2023-04-09 03:04:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-04-09 03:04:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-09 03:04:07 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.ImageView_select product"), 0): Tapped on element 'Object Repository/android.widget.ImageView_select product'
+
+2023-04-09 03:04:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2023-04-09 03:04:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView_select product'
+
+2023-04-09 03:04:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-04-09 03:04:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-09 03:04:09 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.Button - addToCart"), 0): Tapped on element 'Object Repository/android.widget.Button - addToCart'
+
+2023-04-09 03:04:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2023-04-09 03:04:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - addToCart'
+
+2023-04-09 03:04:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-04-09 03:04:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-09 03:04:11 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.ImageView_cartButton"), 0): Tapped on element 'Object Repository/android.widget.ImageView_cartButton'
+
+2023-04-09 03:04:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2023-04-09 03:04:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView_cartButton'
+
+2023-04-09 03:04:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-04-09 03:04:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-09 03:04:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.CheckBox"), 0): Tapped on element 'Object Repository/android.widget.CheckBox'
+
+2023-04-09 03:04:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2023-04-09 03:04:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.CheckBox'
+
+2023-04-09 03:04:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-04-09 03:04:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-09 03:04:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Lakukan Pembayaran"), 0): Tapped on element 'Object Repository/android.widget.TextView - Lakukan Pembayaran'
+
+2023-04-09 03:04:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2023-04-09 03:04:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Lakukan Pembayaran'
+
+2023-04-09 03:04:17 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-09 03:04:17 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-09 03:03:52 - [TEST_SUITE][PASSED] - test: Test Cases/select item and add to cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

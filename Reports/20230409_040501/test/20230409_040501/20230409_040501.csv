@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2023-04-09 04:05:15,2023-04-09 04:06:26,1m - 11.299s,FAILED
+,,,,,,,
+Test Cases/select item and add to cart,,,,2023-04-09 04:05:16,2023-04-09 04:05:59,42.682s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,,2023-04-09 04:05:17,2023-04-09 04:05:17,0.016s,PASSED
+"startExistingApplication(""com.semaai.toko.staging"")",,,,2023-04-09 04:05:17,2023-04-09 04:05:42,25.418s,PASSED
+"takeScreenshot(""Start"")",,,,2023-04-09 04:05:42,2023-04-09 04:05:45,2.917s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView""), 0, CONTINUE_ON_FAILURE)",,,,2023-04-09 04:05:45,2023-04-09 04:05:51,5.577s,FAILED
+delay(1),,,,2023-04-09 04:05:51,2023-04-09 04:05:52,1.183s,PASSED
+"tap(findTestObject(""android.widget.ImageView_select product""), 0)",,,,2023-04-09 04:05:52,2023-04-09 04:05:58,6.362s,FAILED
+,,,,,,,
+Test Cases/Checkout flow,,,,2023-04-09 04:06:00,2023-04-09 04:06:26,26.731s,FAILED
+"startExistingApplication(""com.semaai.toko.staging"")",,,,2023-04-09 04:06:00,2023-04-09 04:06:10,9.611s,PASSED
+"tap(findTestObject(""android.widget.ImageView (4)""), 0, CONTINUE_ON_FAILURE)",,,,2023-04-09 04:06:10,2023-04-09 04:06:15,5.381s,FAILED
+delay(5),,,,2023-04-09 04:06:15,2023-04-09 04:06:20,5.024s,PASSED
+"tap(findTestObject(""android.view.ViewGroup (1)""), 0)",,,,2023-04-09 04:06:20,2023-04-09 04:06:26,6.289s,FAILED

@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2023-04-09 05:11:22,2023-04-09 05:12:00,38.022s,FAILED
+,,,,,,,
+Test Cases/select item and add to cart,,,,2023-04-09 05:11:23,2023-04-09 05:11:58,34.796s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,,2023-04-09 05:11:23,2023-04-09 05:11:23,0.010s,PASSED
+"startExistingApplication(""com.semaai.toko.staging"")",,,,2023-04-09 05:11:23,2023-04-09 05:11:37,13.433s,PASSED
+"takeScreenshot(""Start"")",,,,2023-04-09 05:11:37,2023-04-09 05:11:38,1.422s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView""), 0, CONTINUE_ON_FAILURE)",,,,2023-04-09 05:11:38,2023-04-09 05:11:43,5.358s,FAILED
+delay(1),,,,2023-04-09 05:11:43,2023-04-09 05:11:45,1.111s,PASSED
+"tap(findTestObject(""android.widget.ImageView_select product""), 0)",,,,2023-04-09 05:11:45,2023-04-09 05:11:45,0.399s,PASSED
+"takeScreenshot(""Step 2"")",,,,2023-04-09 05:11:45,2023-04-09 05:11:46,1.048s,PASSED
+delay(1),,,,2023-04-09 05:11:46,2023-04-09 05:11:47,1.045s,PASSED
+"tap(findTestObject(""android.widget.Button - addToCart""), 0)",,,,2023-04-09 05:11:47,2023-04-09 05:11:49,1.507s,PASSED
+"takeScreenshot(""Step 3"")",,,,2023-04-09 05:11:49,2023-04-09 05:11:49,0.919s,PASSED
+delay(1),,,,2023-04-09 05:11:49,2023-04-09 05:11:50,1.012s,PASSED
+"tap(findTestObject(""android.widget.ImageView_cartButton""), 0)",,,,2023-04-09 05:11:50,2023-04-09 05:11:52,1.348s,PASSED
+"takeScreenshot(""Step 4"")",,,,2023-04-09 05:11:52,2023-04-09 05:11:53,0.772s,PASSED
+delay(1),,,,2023-04-09 05:11:53,2023-04-09 05:11:54,1.027s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.CheckBox""), 0)",,,,2023-04-09 05:11:54,2023-04-09 05:11:54,0.286s,PASSED
+"takeScreenshot(""Step 5"")",,,,2023-04-09 05:11:54,2023-04-09 05:11:55,0.785s,PASSED
+delay(1),,,,2023-04-09 05:11:55,2023-04-09 05:11:56,1.018s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Lakukan Pembayaran""), 0)",,,,2023-04-09 05:11:56,2023-04-09 05:11:56,0.339s,PASSED
+"takeScreenshot(""Step 6"")",,,,2023-04-09 05:11:56,2023-04-09 05:11:57,0.971s,PASSED
+closeApplication(),,,,2023-04-09 05:11:57,2023-04-09 05:11:58,0.485s,PASSED
+,,,,,,,
+Test Cases/Checkout flow,,,,2023-04-09 05:11:58,2023-04-09 05:12:00,2.723s,FAILED
+delay(2),,,,2023-04-09 05:11:58,2023-04-09 05:12:00,2.027s,PASSED
+"tap(findTestObject(""android.widget.Button - Asyik, OK""), 5, CONTINUE_ON_FAILURE)",,,,2023-04-09 05:12:00,2023-04-09 05:12:00,0.116s,PASSED

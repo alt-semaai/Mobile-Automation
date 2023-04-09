@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Happy flow" time="73.306" tests="1" failures="0" errors="0">
+   <testsuite name="Happy flow" tests="1" failures="0" errors="0" time="73.306" skipped="0" timestamp="2023-04-07 23:50:34" hostname="altamash - localhost" id="Test Suites/Happy flow test suite/Happy flow">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230407_235021/Happy flow test suite/Happy flow/20230407_235021"/>
+         <property name="logFiles" value="/Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230407_235021/Happy flow test suite/Happy flow/20230407_235021/execution0.log, /Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230407_235021/Happy flow test suite/Happy flow/20230407_235021/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="altamash - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Checkout flow" time="72.855" classname="Test Cases/Checkout flow" status="PASSED">
+         <system-out><![CDATA[2023-04-07 23:50:35 - [TEST_CASE][PASSED] - Test Cases/Checkout flow: Test Cases/Checkout flow
+
+2023-04-07 23:50:35 - [TEST_STEP][PASSED] - startExistingApplication("com.semaai.toko.staging"): Starting app with application ID: 'com.semaai.toko.staging'
+
+2023-04-07 23:50:37 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-04-07 23:50:39 - [MESSAGE][INFO] - Appium server started on port 55,031
+
+2023-04-07 23:50:54 - [MESSAGE][PASSED] - Starting app with application ID: 'com.semaai.toko.staging'
+
+2023-04-07 23:50:54 - [TEST_STEP][PASSED] - tap(findTestObject("android.view.ViewGroup (1)"), 0): Tapped on element 'Object Repository/android.view.ViewGroup (1)'
+
+2023-04-07 23:50:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:51:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.ViewGroup (1)'
+
+2023-04-07 23:51:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.RadioButton"), 0): Tapped on element 'Object Repository/android.widget.RadioButton'
+
+2023-04-07 23:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:51:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RadioButton'
+
+2023-04-07 23:51:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - Konfirmasi (1)"), 0): Tapped on element 'Object Repository/android.widget.Button - Konfirmasi (1)'
+
+2023-04-07 23:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:51:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Konfirmasi (1)'
+
+2023-04-07 23:51:29 - [TEST_STEP][PASSED] - scrollToText("Total Pembayaran"): Scrolling to text 'Total Pembayaran' successfully
+
+2023-04-07 23:51:33 - [MESSAGE][PASSED] - Scrolling to text 'Total Pembayaran' successfully
+
+2023-04-07 23:51:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.view.ViewGroup (2)"), 0): Tapped on element 'Object Repository/android.view.ViewGroup (2)'
+
+2023-04-07 23:51:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:51:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.ViewGroup (2)'
+
+2023-04-07 23:51:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageView (6)"), 0): Tapped on element 'Object Repository/android.widget.ImageView (6)'
+
+2023-04-07 23:51:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:51:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView (6)'
+
+2023-04-07 23:51:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.view.ViewGroup (3)"), 0): Tapped on element 'Object Repository/android.view.ViewGroup (3)'
+
+2023-04-07 23:51:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:51:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.view.ViewGroup (3)'
+
+2023-04-07 23:51:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Buat Pesanan"), 0): Tapped on element 'Object Repository/android.widget.TextView - Buat Pesanan'
+
+2023-04-07 23:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:51:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Buat Pesanan'
+
+2023-04-07 23:51:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - Detail Pesanan"), 0): Tapped on element 'Object Repository/android.widget.Button - Detail Pesanan'
+
+2023-04-07 23:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-04-07 23:51:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Detail Pesanan'
+
+2023-04-07 23:51:40 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-07 23:51:42 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-07 23:51:42 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-07 23:51:43 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-07 23:51:43 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-07 23:51:44 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-07 23:51:44 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-04-07 23:51:47 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-04-07 23:51:47 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-07 23:51:48 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-07 23:50:34 - [TEST_SUITE][PASSED] - Happy flow: Test Cases/Checkout flow]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

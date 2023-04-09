@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2023-04-09 03:09:54,2023-04-09 03:10:08,14.834s,ERROR
+,,,,,,,
+Test Cases/select item and add to cart,,,,2023-04-09 03:09:54,2023-04-09 03:10:08,14.376s,ERROR
+"startExistingApplication(""com.semaai.toko.staging"")",,,,2023-04-09 03:09:55,2023-04-09 03:10:08,13.423s,PASSED
+try,,,,2023-04-09 03:10:08,2023-04-09 03:10:08,0.398s,PASSED
+catch (Exception e),,,,2023-04-09 03:10:08,2023-04-09 03:10:08,0.055s,ERROR

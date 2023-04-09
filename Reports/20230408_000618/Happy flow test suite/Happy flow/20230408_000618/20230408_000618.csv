@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Happy flow,,,,2023-04-08 00:06:30,2023-04-08 00:06:33,2.554s,ERROR
+,,,,,,,
+Test Cases/select item and add to cart,,,,2023-04-08 00:06:33,2023-04-08 00:06:33,0.089s,ERROR
+"startExistingApplication(""com.semaai.toko.staging"", { -> ... })",,,,2023-04-08 00:06:33,2023-04-08 00:06:33,0.022s,ERROR

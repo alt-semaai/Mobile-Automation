@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="35.275" tests="1" failures="1" errors="0">
+   <testsuite name="test" tests="1" failures="1" errors="0" time="35.275" skipped="0" timestamp="2023-04-09 02:57:13" hostname="altamash - localhost" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230409_025658/test/20230409_025658"/>
+         <property name="logFiles" value="/Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230409_025658/test/20230409_025658/execution0.log, /Users/altamash/Katalon Studio/MA- Ecommerce/Reports/20230409_025658/test/20230409_025658/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="altamash - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/select item and add to cart" time="34.449" classname="Test Cases/select item and add to cart" status="FAILED">
+         <failure type="FAILED" message="Test Cases/select item and add to cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at select item and add to cart.run(select item and add to cart:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680989218202.run(TempTestSuite1680989218202.groovy:36)
+"/>
+         <system-out><![CDATA[2023-04-09 02:57:14 - [TEST_CASE][FAILED] - Test Cases/select item and add to cart: Test Cases/select item and add to cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at select item and add to cart.run(select item and add to cart:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680989218202.run(TempTestSuite1680989218202.groovy:36)
+
+
+2023-04-09 02:57:15 - [TEST_STEP][PASSED] - startExistingApplication("com.semaai.toko.staging"): Starting app with application ID: 'com.semaai.toko.staging'
+
+2023-04-09 02:57:16 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-04-09 02:57:18 - [MESSAGE][INFO] - Appium server started on port 62,423
+
+2023-04-09 02:57:32 - [MESSAGE][PASSED] - Starting app with application ID: 'com.semaai.toko.staging'
+
+2023-04-09 02:57:32 - [TEST_STEP][FAILED] - try: Object Object Repository/android.widget.ImageView not found
+
+2023-04-09 02:57:32 - [TEST_STEP][FAILED] - tap(findTestObject("Object Repository/android.widget.ImageView"), 2, CONTINUE_ON_FAILURE): Object Object Repository/android.widget.ImageView not found
+
+2023-04-09 02:57:35 - [MESSAGE][FAILED] - Object Object Repository/android.widget.ImageView not found
+
+2023-04-09 02:57:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-04-09 02:57:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-09 02:57:36 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.ImageView_select product"), 0): Tapped on element 'Object Repository/android.widget.ImageView_select product'
+
+2023-04-09 02:57:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2023-04-09 02:57:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView_select product'
+
+2023-04-09 02:57:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-04-09 02:57:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-09 02:57:37 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.Button - addToCart"), 0): Tapped on element 'Object Repository/android.widget.Button - addToCart'
+
+2023-04-09 02:57:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2023-04-09 02:57:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - addToCart'
+
+2023-04-09 02:57:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-04-09 02:57:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-09 02:57:41 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.ImageView_cartButton"), 0): Tapped on element 'Object Repository/android.widget.ImageView_cartButton'
+
+2023-04-09 02:57:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2023-04-09 02:57:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView_cartButton'
+
+2023-04-09 02:57:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-04-09 02:57:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-09 02:57:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.CheckBox"), 0): Tapped on element 'Object Repository/android.widget.CheckBox'
+
+2023-04-09 02:57:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2023-04-09 02:57:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.CheckBox'
+
+2023-04-09 02:57:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-04-09 02:57:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-04-09 02:57:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Lakukan Pembayaran"), 0): Tapped on element 'Object Repository/android.widget.TextView - Lakukan Pembayaran'
+
+2023-04-09 02:57:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2023-04-09 02:57:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Lakukan Pembayaran'
+
+2023-04-09 02:57:48 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-04-09 02:57:48 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[2023-04-09 02:57:14 - [TEST_CASE][FAILED] - Test Cases/select item and add to cart: Test Cases/select item and add to cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at select item and add to cart.run(select item and add to cart:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680989218202.run(TempTestSuite1680989218202.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-09 02:57:13 - [TEST_SUITE][FAILED] - test: Test Cases/select item and add to cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at select item and add to cart.run(select item and add to cart:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680989218202.run(TempTestSuite1680989218202.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-04-09 02:57:13 - [TEST_SUITE][FAILED] - test: Test Cases/select item and add to cart FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/android.widget.ImageView not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1476)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at select item and add to cart.run(select item and add to cart:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680989218202.run(TempTestSuite1680989218202.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

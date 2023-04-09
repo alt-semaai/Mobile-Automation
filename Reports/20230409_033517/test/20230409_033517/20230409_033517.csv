@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2023-04-09 03:35:28,2023-04-09 03:35:51,23.188s,FAILED
+,,,,,,,
+Test Cases/select item and add to cart,,,,2023-04-09 03:35:29,2023-04-09 03:35:51,22.618s,FAILED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,,2023-04-09 03:35:29,2023-04-09 03:35:29,0.008s,PASSED
+"startExistingApplication(""com.semaai.toko.staging"")",,,,2023-04-09 03:35:29,2023-04-09 03:35:42,13.206s,PASSED
+"takeScreenshot(""Start"")",,,,2023-04-09 03:35:42,2023-04-09 03:35:43,1.192s,PASSED
+try,,,,2023-04-09 03:35:43,2023-04-09 03:35:44,0.178s,PASSED
+catch (Exception e),,,,2023-04-09 03:35:44,2023-04-09 03:35:44,0.529s,PASSED
+delay(1),,,,2023-04-09 03:35:44,2023-04-09 03:35:45,1.069s,PASSED
+"tap(findTestObject(""android.widget.ImageView_select product""), 0)",,,,2023-04-09 03:35:45,2023-04-09 03:35:51,5.913s,FAILED

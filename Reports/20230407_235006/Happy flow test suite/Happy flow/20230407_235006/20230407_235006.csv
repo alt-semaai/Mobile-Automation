@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Happy flow,,,,2023-04-07 23:50:19,2023-04-07 23:50:22,3.056s,FAILED
+,,,,,,,
+Test Cases/Checkout flow,,,,2023-04-07 23:50:22,2023-04-07 23:50:22,0.085s,FAILED
+"startExistingApplication(""com.semaai.toko.staging"")",,,,2023-04-07 23:50:22,2023-04-07 23:50:22,0.015s,FAILED

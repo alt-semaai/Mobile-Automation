@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2023-04-09 03:25:12,2023-04-09 03:25:13,1.386s,ERROR
+,,,,,,,
+Test Cases/select item and add to cart,,,,2023-04-09 03:25:12,2023-04-09 03:25:13,0.905s,ERROR
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,,2023-04-09 03:25:13,2023-04-09 03:25:13,0.010s,PASSED
+"takeScreenshot(""Start"")",,,,2023-04-09 03:25:13,2023-04-09 03:25:13,0.392s,ERROR

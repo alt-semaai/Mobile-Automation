@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2023-04-09 03:03:52,2023-04-09 03:04:17,25.605s,PASSED
+,,,,,,,
+Test Cases/select item and add to cart,,,,2023-04-09 03:03:52,2023-04-09 03:04:17,25.139s,PASSED
+"startExistingApplication(""com.semaai.toko.staging"")",,,,2023-04-09 03:03:53,2023-04-09 03:04:05,12.663s,PASSED
+try,,,,2023-04-09 03:04:05,2023-04-09 03:04:06,0.403s,PASSED
+catch (Exception e),,,,2023-04-09 03:04:06,2023-04-09 03:04:06,0.025s,PASSED
+delay(1),,,,2023-04-09 03:04:06,2023-04-09 03:04:07,1.122s,PASSED
+"tap(findTestObject(""android.widget.ImageView_select product""), 0)",,,,2023-04-09 03:04:07,2023-04-09 03:04:08,0.802s,PASSED
+delay(1),,,,2023-04-09 03:04:08,2023-04-09 03:04:09,1.048s,PASSED
+"tap(findTestObject(""android.widget.Button - addToCart""), 0)",,,,2023-04-09 03:04:09,2023-04-09 03:04:10,1.294s,PASSED
+delay(1),,,,2023-04-09 03:04:10,2023-04-09 03:04:11,1.034s,PASSED
+"tap(findTestObject(""android.widget.ImageView_cartButton""), 0)",,,,2023-04-09 03:04:11,2023-04-09 03:04:13,1.744s,PASSED
+delay(1),,,,2023-04-09 03:04:13,2023-04-09 03:04:14,1.037s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.CheckBox""), 0)",,,,2023-04-09 03:04:14,2023-04-09 03:04:15,1.026s,PASSED
+delay(1),,,,2023-04-09 03:04:15,2023-04-09 03:04:16,1.011s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Lakukan Pembayaran""), 0)",,,,2023-04-09 03:04:16,2023-04-09 03:04:17,0.910s,PASSED
+closeApplication(),,,,2023-04-09 03:04:17,2023-04-09 03:04:17,0.553s,PASSED

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,,,,2023-04-09 05:15:06,2023-04-09 05:15:10,4.026s,FAILED
+,,,,,,,
+Test Cases/Checkout flow,,,,2023-04-09 05:15:06,2023-04-09 05:15:10,3.545s,FAILED
+delay(2),,,,2023-04-09 05:15:07,2023-04-09 05:15:09,2.107s,PASSED
+"tap(findTestObject(""android.widget.Button - Asyik, OK""), 5, CONTINUE_ON_FAILURE)",,,,2023-04-09 05:15:09,2023-04-09 05:15:10,0.927s,PASSED
